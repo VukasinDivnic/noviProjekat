@@ -1,0 +1,85 @@
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+@media screen and (max-width: 600px) { body{
+    width: 100%;
+}
+  }
+body{
+    background-image: url("../pictures/drugapoy.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+.Ponuda img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.kolona{
+    flex: 40%;
+    max-width: 40%;
+}
+
+.Ponuda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.Ponuda img:hover{
+    opacity: 0.7;
+}
+
+@media (max-width: 800px) {
+    .kolona {
+      flex: 90%;
+      max-width: 90%;
+    }
+  }
+  html, body {
+    height: 100%;
+    
+}
+.page-wrapper{
+    min-height: 100%;
+}
+
+.footer {
+    background-color: #440b0b ;
+    color: white;
+    height: 400px;
+    position: relative;
+    width: 100%;
+
+}
+.footer .footer-content{
+    border:1px solid black ;
+    height: 350px;
+    display: flex;
+    text-align: center;
+}
+
+.footer .footer-content .footer-section{
+    flex:1;
+    padding: 0px;
+    border: 1px solid white;
+
+
+}
+
+
+
+

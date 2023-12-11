@@ -1,0 +1,74 @@
+@media screen and (max-width: 600px) { body{ width: 100%}
+}
+.Naslov {
+  font-size: 30px;
+  order: 1;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 70px;
+  height: 200px;
+}
+.NaslovForme {
+  color: white;
+  background-color: black;
+  height: 250px;
+  text-align: center;
+  margin-left: 50px;
+}
+.Forma-Form {
+  text-align: center;
+  width: 100%;
+}
+
+#submit {
+  font-size: 1.5vw;
+  padding: 0.4vw 1vw 0.4vw 1vw;
+}
+.Prijava {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.Forma-Form {
+  font-size: 1.8em;
+}
+html, body {
+    height: 100%;
+    
+}
+.page-wrapper{
+    min-height: 100%;
+}
+
+.footer {
+    background-color: #440b0b ;
+    color: white;
+    height: 400px;
+    position: relative;
+    width: 100%;
+
+}
+.footer .footer-content{
+    border:1px solid black ;
+    height: 350px;
+    display: flex;
+    text-align: center;
+}
+
+.footer .footer-content .footer-section{
+    flex:1;
+    padding: 25px;
+    border: 1px solid white;
+
+}
+

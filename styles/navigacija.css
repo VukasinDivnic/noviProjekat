@@ -1,0 +1,43 @@
+*{
+  font-family: Comic Sans MS, Comic Sans, cursive; 
+}
+@media screen and (max-width: 600px) { .meni{ width: 100%;}
+}
+.Header-navigacija {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Meni-link {
+  background-color:#440b0b;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.Meni-link a {
+  color: beige;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.Meni-link a:hover {
+  background-color: #705454;
+}
+.Meni-link a.active {
+  background-color: #6b2929;
+}
+
+
+
+
