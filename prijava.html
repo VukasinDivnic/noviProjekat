@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O nama</title>
+    <link rel="stylesheet" type="text/css" href="styles/prijava.css" />
+    <link rel="stylesheet" type="text/css" href="styles/navigacija.css" />
+    <script src="scripts/prijava.js"></script>
+  </head>
+
+  <body style="background-color: #a24848">
+    <div class="Header-navigacija">
+      <div class="Meni">
+        <div class="Meni-link">
+          <a href="index.html">Početna</a>
+          <a href="ponuda.html">Naša ponuda</a>
+          <a active href="oNama.html">O nama</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-wrapper">
+      <div class="Naslov">
+        <div class="Naslov" style="background-image: url(pictures/welcome.jpg)">
+          <h1>.</h1>
+        </div>
+      </div>
+
+      <div class="Prijava" style="background-color: rgba(0, 0, 0, 80%)">
+        <div class="NaslovForme">
+          <h1>
+            <b>Ukoliko želiš da te obavežtavamo o akcijama i novim kolekcijama, obavezno popuni formu!</b>
+          </h1>
+          <img src="pictures/TeamMember.png" style="size: 5%" width="100px" />
+        </div>
+        <form class="Forma-Form" onsubmit="return validacija()">
+          <br />
+
+          <div class="Form-Group">
+            <label for="Male" style="color: white"> Vaš pol:</label>
+            <br />
+            <input type="radio" id="male" name="gender" value="Muški" />
+            <label for="male" style="color: white">Muški</label>
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="zenski"
+              checked
+            />
+            <label for="female" style="color: white">Ženski</label><br /><br />
+          </div>
+          <div class="Form-Group">
+            <label for="name" style="color: white"> Ime: </label> <br />
+            <input
+              type="Unos"
+              class="Form-control"
+              id="name"
+              placeholder="Vaše ime"
+              size="40%"
+              required="required"
+            />
+          </div>
+
+          <div class="Form-Group">
+            <label for="name" style="color: white"> Prezime: </label> <br />
+            <input
+              type="Unos"
+              class="Form-control"
+              id="name"
+              placeholder="Vaše prezime"
+              size="40%"
+              required="required"
+            />
+          </div>
+
+          <div class="Form-Group">
+            <label for="email" style="color: white"> E-mail: </label> <br />
+            <input
+              type="email"
+              class="Form-control"
+              id="email"
+              placeholder="Vaš e-mail"
+              size="40%"
+              required="required"
+            />
+          </div>
+
+          <div class="Form-Group">
+            <label for="number" style="color: white"> Broj telefona:</label
+            ><br />
+            <input
+              type="text"
+              class="Form-control"
+              id="number"
+              placeholder="Vaš broj telefona"
+              size="40%"
+              required="required"
+            />
+          </div>
+
+          <div class="Form-Group">
+            <label for="godinaRodjenja" style="color: white">
+              Vaš datum rođenja:</label
+            ><br />
+            <input
+              type="date"
+              id="GodRodjenja"
+              required="required"
+              size="40%"
+            /><br /><br />
+          </div>
+
+          <input id="submit" type="submit" value="Pošalji" size="100%" />
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1>AD Fashion Shop</h1>
+          <img src="pictures/logo.jpeg" />
+        </div>
+
+        <div class="footer-section links">
+          <h1>Sezonska rasprodaja</h1>
+          <img
+            src="pictures/rasprodaja.jpeg"
+            style="width: 180px; height: 180px"
+          />
+        </div>
+        <div class="footer-section contact-form">
+          <h1>Kontaktiraj nas!</h1>
+          <br />
+          <h3>Tel1: 064 29 317 21</h3>
+          <h3>Tel2: 064 33 995 66</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

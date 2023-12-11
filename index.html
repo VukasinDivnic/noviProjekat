@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="with=device=width, initial-scale=1.0">
+    <meta name="description" content="Prodavnica garderobe.">
+    <meta name="keywords" content="pocetna, Prodavnica">
+    <title>Pocetna</title>
+    <link rel="stylesheet" type="text/css" href="styles/navigacija.css" />
+    <link rel="stylesheet" type="text/css" href="styles/pocetna.css" />
+    <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
+    <script src="scripts/pocetna.js"></script>
+    <meta property="og:title" content="Pocetna" />
+    <meta property="og:description" content="Prodavnica garderobe." />
+    <meta property="og:url" content="http://www.example.com/" /> <!-- Zamijenite sa vašim stvarnim URL-om -->
+    <meta property="og:image" content="http://www.example.com/slika.jpg" /> <!-- Zamijenite sa URL-om slike vaše stranice -->
+    <meta property="og:type" content="website" />
+  </head>
+
+
+  <body onload="onLoad()">
+    <div class="Header-navigacija">
+      <div class="Meni">
+        <div class="Meni-link">
+          <a class="active" href="index.html">Početna</a>
+          <a href="ponuda.html">Naša ponuda</a>
+          <a href="oNama.html">O nama</a>
+          <a href="kontakt.html">Kontakt</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="page-wrapper">
+      <div class="slideshow-container">
+        <div class="slajd fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="pictures/newuser.jpeg" style="width: 100%" alt="novi korisnik"/>
+        </div>
+
+        <div class="slajd fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="pictures/50off.jpeg" style="width: 100%" alt="korpa"/>
+        </div>
+
+        <div class="slajd fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="pictures/sezonskarasprodaja.jpeg" style="width: 100%" alt="rasprodaja" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div class="TextBoxPocetna">
+        <div class="tekstIzTextBoxa">
+          <p style="padding: 6vw">
+            AD Fashion Shop prati najveće modne trendove i u skladu sa njima biramo najlepše komade odeće samo za vas.
+            Pratite sajt da biste bili u toku sa sniženjima i novim kolekcijama.
+          </p>
+        </div>
+        <div class="akcija">
+          <img src="pictures/akcija.jpeg" style="width: 25vw" alt="akcija"/>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>AD Fashion Shop</h2>
+          <img src="pictures/logo.jpeg" alt="logo"/>
+        </div>
+
+        <div class="footer-section links">
+          <h2>Sezonska rasprodaja</h2>
+          <img
+            src="pictures/rasprodaja.jpeg"
+            style="width: 180px; height: 180px"
+            alt="rasprodajaa"
+          />
+        </div>
+        <div class="footer-section contact-form">
+          <h2>Kontaktiraj nas!</h2>
+          <br />
+          <h3>Tel1: 064 29 317 21</h3>
+          <h3>Tel2: 064 33 995 66</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
